@@ -58,7 +58,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "buildTarget": "rxjs-course:build"
+            "browserTarget": "rxjs-course:build"
+            
           },
           "configurations": {
             "production": {
